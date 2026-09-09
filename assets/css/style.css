@@ -2485,3 +2485,24 @@ section {
   font-size: 13px;
   color: #ddd;
 }
+
+/*--------------------------------------------------------------
+# Our Milestones Section
+--------------------------------------------------------------*/
+#milestones {
+  padding: 60px 0;
+  background: #fff;
+}
+
+#milestones img {
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+#milestones img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
