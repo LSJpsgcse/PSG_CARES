@@ -519,6 +519,13 @@ h6 {
   background-repeat: no-repeat;
 }
 
+#hero .carousel-item.contain-img {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
 #hero .carousel-item::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.411);
